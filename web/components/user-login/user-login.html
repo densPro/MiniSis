@@ -8,8 +8,8 @@
         <div class="w3-half" style="padding-left:10px ">
 
             <video width="95%" height="80%" controls loop autoplay muted>
-                    <source src="assets/video/What is agile What is scrum An Introduction.mp4" type="video/mp4">
-                    Your browser does not support the <code>video</code> tag.
+                <source src="assets/video/What is agile What is scrum An Introduction.mp4" type="video/mp4">
+                Your browser does not support the <code>video</code> tag.
             </video>
         </div>
 
@@ -30,10 +30,11 @@
                 <p>
                     <label>password</label>
                     <input class="w3-input" ng-model="userLogin.userPassword" type="password" placeholder="your password"></p>
+                <a ng-href="taskList">
                 <input  class="w3-btn  w3w3-xlarge-round w3-purple w3-border "
                         type="submit" value="Sign in"  ng-click="userLogin.verifyUser()">
+                </a>
             </form>
         </div>
     </div>
 </div>
-
