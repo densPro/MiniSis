@@ -40,8 +40,8 @@ public class DBManager {
     if(connection != null){
             return;
         }
-        String url = "jdbc:postgresql://localhost:5432/mini_sis_database";
-        String password = "postgres";
+        String url = "jdbc:postgresql://localhost:5432/postgres";
+        String password = "123";
         try {
             Class.forName("org.postgresql.Driver");
             connection = DriverManager.getConnection(url, "postgres", password);
